@@ -1,4 +1,4 @@
-# React Nice Resume     
+# React Nice Data     
 
 ### DEMO is [here](https://nordicgiant2.github.io/react-nice-resume-page/index.html)
 

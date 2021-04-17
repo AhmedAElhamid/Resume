@@ -8,6 +8,7 @@ import About from "./Components/About";
 import Resume from "./Components/Resume";
 import Contact from "./Components/Contact";
 import Portfolio from "./Components/Portfolio";
+import {getResume} from "./services/resumeService";
 
 class App extends Component {
   constructor(props) {
@@ -21,7 +22,8 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
-  getResumeData() {
+  getLocalResumeData() {
+
     $.ajax({
       url: "./resumeData.json",
       dataType: "json",
@@ -36,8 +38,14 @@ class App extends Component {
     });
   }
 
-  componentDidMount() {
-    this.getResumeData();
+  async componentDidMount() {
+      try{
+         const {data} = await getResume();
+         this.setState({ resumeData: data[0] })
+      }catch(e){
+          console.log(e)
+          this.getLocalResumeData();
+      }
   }
 
   render() {
