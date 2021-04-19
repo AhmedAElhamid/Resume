@@ -8,15 +8,15 @@
     "email": "ahmed_a.elhamid@hotmail.com",
     "phone": "(+20)10 284 088 39",
     "github":"https://github.com/AhmedAElhamid",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "project":"https://github.com/AhmedAElhamid/Resume",
     "address":{
       "street":"Taha Hussein Rd",
       "city":"New Nozha",
       "state":"Cairo-Egypt",
       "zip": "11843"
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload":"http://timbakerdev.com",
+    "website": "#",
+    "resumedownload":"https://www.dropbox.com/s/mzqcllrg440fmy3/Ahmed%20Abdelhamid%20CV.pdf?dl=0",
     "social":[
       {
         "name":"linkedin",
@@ -170,7 +170,7 @@
         "title":"Resume Website",
         "category":"(offline now) A fighting gear company I started",
         "image":"05.png",
-        "url":""
+        "url":"https://github.com/AhmedAElhamid/Resume"
       },
       {
         "title":"Sick-Fits Frontend",
